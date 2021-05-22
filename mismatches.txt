@@ -1,0 +1,252 @@
+Mismatch on line 104:
+  Expected: YES: (a|b)(c|d) with ac
+  But got:  NO:  (a|b)(c|d) with ac
+Mismatch on line 105:
+  Expected: YES: (a|b)(c|d) with ad
+  But got:  NO:  (a|b)(c|d) with ad
+Mismatch on line 106:
+  Expected: YES: (a|b)(c|d) with bc
+  But got:  NO:  (a|b)(c|d) with bc
+Mismatch on line 107:
+  Expected: YES: (a|b)(c|d) with bd
+  But got:  NO:  (a|b)(c|d) with bd
+Mismatch on line 110:
+  Expected: NO:  (a|b)(c|d) with b
+  But got:  YES: (a|b)(c|d) with b
+Mismatch on line 125:
+  Expected: YES: (ab|.)(|d) with abd
+  But got:  NO:  (ab|.)(|d) with abd
+Mismatch on line 127:
+  Expected: YES: (ab|.)(|d) with Xd
+  But got:  NO:  (ab|.)(|d) with Xd
+Mismatch on line 143:
+  Expected: YES: a* with 
+  But got:  NO:  a* with 
+Mismatch on line 144:
+  Expected: YES: a* with aa
+  But got:  NO:  a* with aa
+Mismatch on line 145:
+  Expected: YES: a* with aaa
+  But got:  NO:  a* with aaa
+Mismatch on line 150:
+  Expected: YES: a*b with b
+  But got:  NO:  a*b with b
+Mismatch on line 151:
+  Expected: YES: a*b with ab
+  But got:  NO:  a*b with ab
+Mismatch on line 153:
+  Expected: YES: a*b with aab
+  But got:  NO:  a*b with aab
+Mismatch on line 156:
+  Expected: YES: ab* with a
+  But got:  NO:  ab* with a
+Mismatch on line 158:
+  Expected: YES: ab* with abbb
+  But got:  NO:  ab* with abbb
+Mismatch on line 163:
+  Expected: YES: (ab)* with 
+  But got:  NO:  (ab)* with 
+Mismatch on line 164:
+  Expected: YES: (ab)* with abab
+  But got:  NO:  (ab)* with abab
+Mismatch on line 165:
+  Expected: YES: (ab)* with ababab
+  But got:  NO:  (ab)* with ababab
+Mismatch on line 172:
+  Expected: YES: 1(11)* with 111
+  But got:  NO:  1(11)* with 111
+Mismatch on line 174:
+  Expected: YES: .* with hello
+  But got:  NO:  .* with hello
+Mismatch on line 175:
+  Expected: YES: .* with 
+  But got:  NO:  .* with 
+Mismatch on line 176:
+  Expected: YES: ..* with x
+  But got:  NO:  ..* with x
+Mismatch on line 179:
+  Expected: YES: ..* with xyz
+  But got:  NO:  ..* with xyz
+Mismatch on line 180:
+  Expected: YES: (..)* with 
+  But got:  NO:  (..)* with 
+Mismatch on line 184:
+  Expected: YES: (..)* with wxyz
+  But got:  NO:  (..)* with wxyz
+Mismatch on line 188:
+  Expected: YES: (X.)* with 
+  But got:  NO:  (X.)* with 
+Mismatch on line 190:
+  Expected: YES: (X.)* with XaXb
+  But got:  NO:  (X.)* with XaXb
+Mismatch on line 191:
+  Expected: YES: (X.)* with XaXXXc
+  But got:  NO:  (X.)* with XaXXXc
+Mismatch on line 196:
+  Expected: YES: (.y)* with syzygy
+  But got:  NO:  (.y)* with syzygy
+Mismatch on line 202:
+  Expected: YES: a*? with ?
+  But got:  NO:  a*? with ?
+Mismatch on line 206:
+  Expected: YES: (a|b)* with aa
+  But got:  NO:  (a|b)* with aa
+Mismatch on line 207:
+  Expected: YES: (a|b)* with bb
+  But got:  NO:  (a|b)* with bb
+Mismatch on line 208:
+  Expected: YES: (a|b)* with ab
+  But got:  NO:  (a|b)* with ab
+Mismatch on line 209:
+  Expected: YES: (a|b)* with ba
+  But got:  NO:  (a|b)* with ba
+Mismatch on line 210:
+  Expected: YES: (a|b)* with aab
+  But got:  NO:  (a|b)* with aab
+Mismatch on line 211:
+  Expected: YES: (a|b)* with bab
+  But got:  NO:  (a|b)* with bab
+Mismatch on line 221:
+  Expected: YES: a|b* with 
+  But got:  NO:  a|b* with 
+Mismatch on line 223:
+  Expected: YES: a|b* with bbb
+  But got:  NO:  a|b* with bbb
+Mismatch on line 229:
+  Expected: YES: (ab|c)* with cab
+  But got:  NO:  (ab|c)* with cab
+Mismatch on line 230:
+  Expected: YES: (ab|c)* with abc
+  But got:  NO:  (ab|c)* with abc
+Mismatch on line 231:
+  Expected: YES: (ab|c)* with ababcc
+  But got:  NO:  (ab|c)* with ababcc
+Mismatch on line 238:
+  Expected: YES: ab*|c*d with a
+  But got:  NO:  ab*|c*d with a
+Mismatch on line 239:
+  Expected: YES: ab*|c*d with abbb
+  But got:  NO:  ab*|c*d with abbb
+Mismatch on line 240:
+  Expected: YES: ab*|c*d with d
+  But got:  NO:  ab*|c*d with d
+Mismatch on line 241:
+  Expected: YES: ab*|c*d with cccd
+  But got:  NO:  ab*|c*d with cccd
+Mismatch on line 242:
+  Expected: YES: ab*|c*d with cd
+  But got:  NO:  ab*|c*d with cd
+Mismatch on line 248:
+  Expected: YES: ((hello|hi) (world|earth)! )* with hello world! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world! 
+Mismatch on line 249:
+  Expected: YES: ((hello|hi) (world|earth)! )* with hi world! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi world! 
+Mismatch on line 250:
+  Expected: YES: ((hello|hi) (world|earth)! )* with hi earth! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi earth! 
+Mismatch on line 251:
+  Expected: YES: ((hello|hi) (world|earth)! )* with hello earth! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello earth! 
+Mismatch on line 252:
+  Expected: YES: ((hello|hi) (world|earth)! )* with hello world! hi earth! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world! hi earth! 
+Mismatch on line 253:
+  Expected: YES: ((hello|hi) (world|earth)! )* with hi earth! hello world! hi world! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi earth! hello world! hi world! 
+Mismatch on line 254:
+  Expected: YES: ((hello|hi) (world|earth)! )* with 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with 
+Mismatch on line 255:
+  Expected: NO:  ((hello|hi) (world|earth)! )* with hello world
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world
+Mismatch on line 256:
+  Expected: NO:  ((hello|hi) (world|earth)! )* with helloworld! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with helloworld! 
+Mismatch on line 257:
+  Expected: NO:  ((hello|hi) (world|earth)! )* with hello hi world earth! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello hi world earth! 
+Mismatch on line 258:
+  Expected: NO:  ((hello|hi) (world|earth)! )* with hello world! world! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world! world! 
+Mismatch on line 259:
+  Expected: NO:  ((hello|hi) (world|earth)! )* with hi hi earth! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi hi earth! 
+Mismatch on line 260:
+  Expected: NO:  ((hello|hi) (world|earth)! )* with hello world!  
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world!  
+Mismatch on line 261:
+  Expected: NO:  ((hello|hi) (world|earth)! )* with hi earth! ! 
+  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi earth! ! 
+Mismatch on line 262:
+  Expected: YES: (<.*>(.*)</(.*)>)* with <a>b</a>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b</a>
+Mismatch on line 263:
+  Expected: YES: (<.*>(.*)</(.*)>)* with <a>b</c>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b</c>
+Mismatch on line 264:
+  Expected: YES: (<.*>(.*)</(.*)>)* with <>b</a>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <>b</a>
+Mismatch on line 265:
+  Expected: YES: (<.*>(.*)</(.*)>)* with <a href="#"></a>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a href="#"></a>
+Mismatch on line 266:
+  Expected: YES: (<.*>(.*)</(.*)>)* with 
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with 
+Mismatch on line 267:
+  Expected: YES: (<.*>(.*)</(.*)>)* with <></><>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <></><>
+Mismatch on line 268:
+  Expected: YES: (<.*>(.*)</(.*)>)* with <a>b</a><b>a</b>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b</a><b>a</b>
+Mismatch on line 269:
+  Expected: YES: (<.*>(.*)</(.*)>)* with <br /><a href="#hello">hi</a>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <br /><a href="#hello">hi</a>
+Mismatch on line 270:
+  Expected: NO:  (<.*>(.*)</(.*)>)* with <a>b<a>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b<a>
+Mismatch on line 271:
+  Expected: NO:  (<.*>(.*)</(.*)>)* with hello
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with hello
+Mismatch on line 272:
+  Expected: NO:  (<.*>(.*)</(.*)>)* with <br />
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <br />
+Mismatch on line 273:
+  Expected: NO:  (<.*>(.*)</(.*)>)* with <em>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <em>
+Mismatch on line 274:
+  Expected: NO:  (<.*>(.*)</(.*)>)* with </i>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with </i>
+Mismatch on line 275:
+  Expected: NO:  (<.*>(.*)</(.*)>)* with </i><i>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with </i><i>
+Mismatch on line 276:
+  Expected: NO:  (<.*>(.*)</(.*)>)* with <</>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <</>
+Mismatch on line 277:
+  Expected: NO:  (<.*>(.*)</(.*)>)* with </>
+  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with </>
+Mismatch on line 278:
+  Expected: YES: (ab*)* with 
+  But got:  NO:  (ab*)* with 
+Mismatch on line 279:
+  Expected: YES: (ab*)* with aa
+  But got:  NO:  (ab*)* with aa
+Mismatch on line 280:
+  Expected: YES: (ab*)* with abab
+  But got:  NO:  (ab*)* with abab
+Mismatch on line 281:
+  Expected: YES: (ab*)* with abbaab
+  But got:  NO:  (ab*)* with abbaab
+Mismatch on line 286:
+  Expected: YES: (X*)* with XXXXX
+  But got:  NO:  (X*)* with XXXXX
+Mismatch on line 287:
+  Expected: YES: ((H*)*)* with 
+  But got:  NO:  ((H*)*)* with 
+Mismatch on line 289:
+  Expected: YES: ((H*)*)* with HHH
+  But got:  NO:  ((H*)*)* with HHH
+Mismatch on line 290:
+  Expected: YES: ((H*)*)* with HHHHH
+  But got:  NO:  ((H*)*)* with HHHHH
