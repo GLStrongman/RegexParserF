@@ -117,7 +117,7 @@ YES: hello.world with hello world
 NO:  hello.world with helloworld
 YES: ((a|bc)|d) with a
 YES: ((a|bc)|d) with bc
-YES: ((a|bc)|d) with d
+NO:  ((a|bc)|d) with d
 NO:  ((a|bc)|d) with ad
 NO:  ((a|bc)|d) with bcd
 NO:  ((a|bc)|d) with 
@@ -245,36 +245,36 @@ NO:  ab*|c*d with aa
 NO:  ab*|c*d with dd
 NO:  ab*|c*d with bbc
 NO:  ab*|c*d with abab
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi world! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi earth! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello earth! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world! hi earth! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi earth! hello world! hi world! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with helloworld! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello hi world earth! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world! world! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi hi earth! 
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world!  
-SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi earth! ! 
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b</a>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b</c>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <>b</a>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a href="#"></a>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with 
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <></><>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b</a><b>a</b>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <br /><a href="#hello">hi</a>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b<a>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with hello
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <br />
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <em>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with </i>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with </i><i>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <</>
-SYNTAX ERROR: (<.*>(.*)</(.*)>)* with </>
+NO:  ((hello|hi) (world|earth)! )* with hello world! 
+NO:  ((hello|hi) (world|earth)! )* with hi world! 
+NO:  ((hello|hi) (world|earth)! )* with hi earth! 
+NO:  ((hello|hi) (world|earth)! )* with hello earth! 
+NO:  ((hello|hi) (world|earth)! )* with hello world! hi earth! 
+NO:  ((hello|hi) (world|earth)! )* with hi earth! hello world! hi world! 
+NO:  ((hello|hi) (world|earth)! )* with 
+NO:  ((hello|hi) (world|earth)! )* with hello world
+NO:  ((hello|hi) (world|earth)! )* with helloworld! 
+NO:  ((hello|hi) (world|earth)! )* with hello hi world earth! 
+NO:  ((hello|hi) (world|earth)! )* with hello world! world! 
+NO:  ((hello|hi) (world|earth)! )* with hi hi earth! 
+NO:  ((hello|hi) (world|earth)! )* with hello world!  
+NO:  ((hello|hi) (world|earth)! )* with hi earth! ! 
+NO:  (<.*>(.*)</(.*)>)* with <a>b</a>
+NO:  (<.*>(.*)</(.*)>)* with <a>b</c>
+NO:  (<.*>(.*)</(.*)>)* with <>b</a>
+NO:  (<.*>(.*)</(.*)>)* with <a href="#"></a>
+NO:  (<.*>(.*)</(.*)>)* with 
+NO:  (<.*>(.*)</(.*)>)* with <></><>
+NO:  (<.*>(.*)</(.*)>)* with <a>b</a><b>a</b>
+NO:  (<.*>(.*)</(.*)>)* with <br /><a href="#hello">hi</a>
+NO:  (<.*>(.*)</(.*)>)* with <a>b<a>
+NO:  (<.*>(.*)</(.*)>)* with hello
+NO:  (<.*>(.*)</(.*)>)* with <br />
+NO:  (<.*>(.*)</(.*)>)* with <em>
+NO:  (<.*>(.*)</(.*)>)* with </i>
+NO:  (<.*>(.*)</(.*)>)* with </i><i>
+NO:  (<.*>(.*)</(.*)>)* with <</>
+NO:  (<.*>(.*)</(.*)>)* with </>
 NO:  (ab*)* with 
 NO:  (ab*)* with aa
 NO:  (ab*)* with abab

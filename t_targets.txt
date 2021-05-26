@@ -6,5 +6,4 @@ a
 b
 c
 a
-a
-ab
+ac

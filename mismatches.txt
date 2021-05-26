@@ -13,6 +13,9 @@ Mismatch on line 107:
 Mismatch on line 110:
   Expected: NO:  (a|b)(c|d) with b
   But got:  YES: (a|b)(c|d) with b
+Mismatch on line 120:
+  Expected: YES: ((a|bc)|d) with d
+  But got:  NO:  ((a|bc)|d) with d
 Mismatch on line 125:
   Expected: YES: (ab|.)(|d) with abd
   But got:  NO:  (ab|.)(|d) with abd
@@ -138,94 +141,49 @@ Mismatch on line 242:
   But got:  NO:  ab*|c*d with cd
 Mismatch on line 248:
   Expected: YES: ((hello|hi) (world|earth)! )* with hello world! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world! 
+  But got:  NO:  ((hello|hi) (world|earth)! )* with hello world! 
 Mismatch on line 249:
   Expected: YES: ((hello|hi) (world|earth)! )* with hi world! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi world! 
+  But got:  NO:  ((hello|hi) (world|earth)! )* with hi world! 
 Mismatch on line 250:
   Expected: YES: ((hello|hi) (world|earth)! )* with hi earth! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi earth! 
+  But got:  NO:  ((hello|hi) (world|earth)! )* with hi earth! 
 Mismatch on line 251:
   Expected: YES: ((hello|hi) (world|earth)! )* with hello earth! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello earth! 
+  But got:  NO:  ((hello|hi) (world|earth)! )* with hello earth! 
 Mismatch on line 252:
   Expected: YES: ((hello|hi) (world|earth)! )* with hello world! hi earth! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world! hi earth! 
+  But got:  NO:  ((hello|hi) (world|earth)! )* with hello world! hi earth! 
 Mismatch on line 253:
   Expected: YES: ((hello|hi) (world|earth)! )* with hi earth! hello world! hi world! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi earth! hello world! hi world! 
+  But got:  NO:  ((hello|hi) (world|earth)! )* with hi earth! hello world! hi world! 
 Mismatch on line 254:
   Expected: YES: ((hello|hi) (world|earth)! )* with 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with 
-Mismatch on line 255:
-  Expected: NO:  ((hello|hi) (world|earth)! )* with hello world
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world
-Mismatch on line 256:
-  Expected: NO:  ((hello|hi) (world|earth)! )* with helloworld! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with helloworld! 
-Mismatch on line 257:
-  Expected: NO:  ((hello|hi) (world|earth)! )* with hello hi world earth! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello hi world earth! 
-Mismatch on line 258:
-  Expected: NO:  ((hello|hi) (world|earth)! )* with hello world! world! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world! world! 
-Mismatch on line 259:
-  Expected: NO:  ((hello|hi) (world|earth)! )* with hi hi earth! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi hi earth! 
-Mismatch on line 260:
-  Expected: NO:  ((hello|hi) (world|earth)! )* with hello world!  
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hello world!  
-Mismatch on line 261:
-  Expected: NO:  ((hello|hi) (world|earth)! )* with hi earth! ! 
-  But got:  SYNTAX ERROR: ((hello|hi) (world|earth)! )* with hi earth! ! 
+  But got:  NO:  ((hello|hi) (world|earth)! )* with 
 Mismatch on line 262:
   Expected: YES: (<.*>(.*)</(.*)>)* with <a>b</a>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b</a>
+  But got:  NO:  (<.*>(.*)</(.*)>)* with <a>b</a>
 Mismatch on line 263:
   Expected: YES: (<.*>(.*)</(.*)>)* with <a>b</c>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b</c>
+  But got:  NO:  (<.*>(.*)</(.*)>)* with <a>b</c>
 Mismatch on line 264:
   Expected: YES: (<.*>(.*)</(.*)>)* with <>b</a>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <>b</a>
+  But got:  NO:  (<.*>(.*)</(.*)>)* with <>b</a>
 Mismatch on line 265:
   Expected: YES: (<.*>(.*)</(.*)>)* with <a href="#"></a>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a href="#"></a>
+  But got:  NO:  (<.*>(.*)</(.*)>)* with <a href="#"></a>
 Mismatch on line 266:
   Expected: YES: (<.*>(.*)</(.*)>)* with 
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with 
+  But got:  NO:  (<.*>(.*)</(.*)>)* with 
 Mismatch on line 267:
   Expected: YES: (<.*>(.*)</(.*)>)* with <></><>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <></><>
+  But got:  NO:  (<.*>(.*)</(.*)>)* with <></><>
 Mismatch on line 268:
   Expected: YES: (<.*>(.*)</(.*)>)* with <a>b</a><b>a</b>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b</a><b>a</b>
+  But got:  NO:  (<.*>(.*)</(.*)>)* with <a>b</a><b>a</b>
 Mismatch on line 269:
   Expected: YES: (<.*>(.*)</(.*)>)* with <br /><a href="#hello">hi</a>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <br /><a href="#hello">hi</a>
-Mismatch on line 270:
-  Expected: NO:  (<.*>(.*)</(.*)>)* with <a>b<a>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <a>b<a>
-Mismatch on line 271:
-  Expected: NO:  (<.*>(.*)</(.*)>)* with hello
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with hello
-Mismatch on line 272:
-  Expected: NO:  (<.*>(.*)</(.*)>)* with <br />
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <br />
-Mismatch on line 273:
-  Expected: NO:  (<.*>(.*)</(.*)>)* with <em>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <em>
-Mismatch on line 274:
-  Expected: NO:  (<.*>(.*)</(.*)>)* with </i>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with </i>
-Mismatch on line 275:
-  Expected: NO:  (<.*>(.*)</(.*)>)* with </i><i>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with </i><i>
-Mismatch on line 276:
-  Expected: NO:  (<.*>(.*)</(.*)>)* with <</>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with <</>
-Mismatch on line 277:
-  Expected: NO:  (<.*>(.*)</(.*)>)* with </>
-  But got:  SYNTAX ERROR: (<.*>(.*)</(.*)>)* with </>
+  But got:  NO:  (<.*>(.*)</(.*)>)* with <br /><a href="#hello">hi</a>
 Mismatch on line 278:
   Expected: YES: (ab*)* with 
   But got:  NO:  (ab*)* with 
